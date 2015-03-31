@@ -4,7 +4,7 @@ RSpec.describe Project do
 
   describe 'initialization' do
     let(:project) { Project.new }
-    let(:tasks) { Task.new }
+    let(:task) { Task.new }
 
     it "considers a project with no tasks to be done" do
       expect(project.done?).to be_truthy
