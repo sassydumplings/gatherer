@@ -1,28 +1,20 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Gatherer is a bare bones Project management application.
+It was created  to learn and practice RSpec 3 and Capybara testing
 
-Things you may want to cover:
+Some of the features
 
-* Ruby version
+* Rails 4.2, Ruby 2.2, Rspec 3.2, Capybara 2.4.4
 
-* System dependencies
+* Projects has many Tasks, Tasks belong to a Project
 
-* Configuration
+* CreateProject class removes code from the controller for faster testing
 
-* Database creation
+* Integration specs with Capybara are in spec/features
 
-* Database initialization
+* RSpec specs are in spec/controllers; spec/models;
 
-* How to run the test suite
+* running all tests with $rspec
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
